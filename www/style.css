@@ -45,11 +45,30 @@ img {
 }
 
 .menu {
-  min-width: 159px;
+  min-width: 169px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 18px;
+  padding-right: 10px;
+  position: relative;
+}
+.circle {
+  width: 19px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #f16d7f;
+  border-radius: 10px;
+  position: absolute;
+  top: -9px;
+  right: 0px;
 }
 
 .baner {
@@ -207,6 +226,34 @@ img {
 
 .cards__filling {
   max-width: 360px;
+  position: relative;
+}
+
+.cards__fog {
+  width: 360px;
+  height: 420px;
+  background-color: rgba(58, 56, 56, 0.86);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+.cards__btn-add {
+  width: 139px;
+  height: 44px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  background: none;
+  cursor: pointer;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
 }
 
 .cards__text {
@@ -708,4 +755,22 @@ img {
     flex-direction: column-reverse;
     padding-bottom: 9px;
   }
+}
+
+.cards__filling:hover .cards__fog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.products__btn:hover {
+  color: #fff;
+  background: #f16d7f;
+}
+
+.copyright__btn:hover {
+  background: #f16d7f;
+}
+.copyright__btn:hover svg {
+  fill: #fff;
 }
