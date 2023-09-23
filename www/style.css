@@ -242,7 +242,7 @@ img {
   line-height: 19.2px;
   background: #fff;
   border: 1px solid #ff6a6a;
-  margin-bottom: 95px;
+  margin-bottom: 96px;
   padding: 15px 39px;
 }
 
@@ -370,6 +370,11 @@ img {
   border-top-left-radius: 24px;
   border-bottom-left-radius: 24px;
   background-color: #e1e1e1;
+  color: #222224;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .subscribe__btn {
@@ -635,5 +640,72 @@ img {
 
   .products__btn {
     margin-bottom: 85px;
+  }
+
+  .feature__cards {
+    justify-content: center;
+    gap: 46px;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 0px 81px;
+  }
+
+  .beach {
+    height: 550px;
+    background-image: url(./img/beach_mobile.png);
+  }
+
+  .beach__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .beach__photo {
+    margin-top: 64px;
+    max-width: 343px;
+  }
+
+  .beach__photo p {
+    font-size: 18px;
+  }
+
+  .beach__text-italic {
+    font-size: 18px;
+  }
+
+  .beach__subscribe {
+    margin-top: 59px;
+    min-width: 341px;
+  }
+
+  .beach__subscribe h2 {
+    line-height: 36.768px;
+  }
+
+  .beach__subscribe h3 {
+    font-size: 14px;
+    line-height: 153.2%;
+    margin-bottom: 22px;
+  }
+
+  .subscribe__mail {
+    width: 245px;
+    height: 47px;
+  }
+
+  .subscribe__btn {
+    width: 95px;
+    height: 47px;
+  }
+
+  .copyright {
+    height: 143px;
+  }
+
+  .copyright__content {
+    padding-top: 43px;
+    padding-left: 0px;
+    flex-direction: column-reverse;
+    padding-bottom: 9px;
   }
 }
