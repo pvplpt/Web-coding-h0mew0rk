@@ -16,6 +16,10 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -76,6 +80,7 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 65px;
+  position: relative;
 }
 
 .baner__box {
@@ -113,6 +118,50 @@ img {
   font-size: 32px;
   font-weight: 700;
   line-height: 44.4px;
+}
+
+.list_menu {
+  width: 232px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #fff;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list_menu h2 {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.menu_box {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.list_menu h3 {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1px;
+}
+
+.list_menu a {
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 21px;
 }
 
 .offer {
