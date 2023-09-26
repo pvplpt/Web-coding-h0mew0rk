@@ -823,3 +823,7 @@ a {
 .copyright__btn:hover svg {
   fill: #fff;
 }
+
+.hidden {
+  display: none;
+}
